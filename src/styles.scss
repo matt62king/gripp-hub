@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+$theme-colors: (
+  "primary": #4682B4,
+  "warning": #FFD658,
+  "info": #5654BF
+);
+
+$input: (
+  "height": 42px
+);
+
+$nav-bar: (
+  "height": 60px
+);
+
+$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
+
+@import "~node_modules/gwipp/lib/styles/gwipp-style";

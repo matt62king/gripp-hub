@@ -1,0 +1,13 @@
+version: '3.5'
+
+networks:
+  default:
+    external:
+      name: home-network
+
+services:
+  gwipp:
+    image: local/gwipp-hub
+    container_name: local-gwipp-hub
+    ports:
+      - 4200:80
