@@ -26,7 +26,7 @@
     "grippio-gstate": "0.0.11",
     "grippio-oauth": "0.0.2",
     "gwipp": "0.0.19",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.15.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
